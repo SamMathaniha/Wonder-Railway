@@ -1,0 +1,353 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    height: 50px;
+}
+
+.navbar-logo {
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+/* Left panel styles */
+.left-panel {
+    width: 200px;
+    height: 1000px;
+    background-color: black;
+    padding: 10px;
+}
+
+.left-panel button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.left-panel button a{
+    text-decoration: none !important;
+    font-size: 18px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.left-panel a.active {
+    color: #45a049;
+}
+
+.left-panel button:hover {
+    background-color: #e0e0e0;
+}
+
+.form-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 4px;
+    background: #f9f9f9;
+    box-shadow: 0px 0px 10px 0px black;
+}
+
+.title {
+    margin-top: 10px;
+    color: #444;
+}
+
+/* Increase size of Bootstrap icon */
+.bi-person-circle {
+    font-size: 38px;
+    margin-right: 20px;
+}
+
+
+
+/* Basic styling */
+.train-container {
+width: 1100px;
+margin: 0 auto;
+padding: 60px;
+margin-right: 50px;
+background-color: #fff;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+border-radius: 5px;
+margin-top: -1000px;
+align-items: center;
+justify-content: center;
+box-shadow: #555;
+overflow-y: auto;
+overflow-x: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.column {
+    flex: 1;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+form label, .table th {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+input, select {
+    margin-top: 5px;
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+button {
+    background-color: #45a049;
+    color: white;
+    width: 100px;
+    padding: 8px;
+    border-radius: 3px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: black;
+}
+
+/*table*/
+
+/* Reset default margin and padding */
+body, h1, table {
+    margin: 0;
+    padding: 0;
+}
+
+.view-container{
+    width: 1100px;
+    margin: 10px auto;
+    margin-left: 250px;
+    padding: 60px;
+    background-color:#fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px solid #555;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+.tab-container {
+    width: 1000px;
+    margin: 10px auto;
+    margin-left: 0px;
+    padding: 60px;
+    background-color:#fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px solid #555;
+    overflow-y: auto;
+    overflow-x: auto;    
+}   
+
+h1 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.search-bar {
+    margin-bottom: 20px;
+}
+
+.search-bar input[type="text"] {
+    padding: 8px;
+    width: 25%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.table {
+    margin-top: -500px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;    
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+}
+
+th {
+    background-color: #f3f3f3;
+    color: #333;
+    font-weight: bold;     
+}
+
+.actions {
+    display: flex;
+    gap: 5px;
+}
+
+.update-btn, .delete-btn {
+    margin-bottom: 4px;
+    padding: 6px 10px;
+    font-size: 12px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.update-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+}
+
+.update-link,
+.delete-link,
+.report-link{
+    color: white;
+    text-decoration: none;    
+}
+
+h6{
+    align-items: center;
+    color: #28a745;
+}
+
+.M-container{
+    height: 100%;
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: -1000px;
+    margin-right: 50px;
+    padding: 60px;
+    background-color:#fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px solid #555;
+    overflow-y: auto;
+    overflow-x: auto;
+ }
+
+/* Right panel styles */
+.right-panel {
+  flex: 1;
+  padding: 20px;
+}
+
+.right-panel label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+  font-weight: bold;
+}
+
+.right-panel {
+  border: 1px solid #ccc;
+  padding: 20px;
+  background: #f9f9f9;
+  height: 100vh;
+}
+
+.form-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 4px;
+    background: #f9f9f9;
+    box-shadow: 0px 0px 10px 0px black;
+    margin-right: 50px;
+}
+
+.right-panel input,
+.right-panel select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Submit button style */
+.right-panel input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 20px;
+  cursor: pointer;
+}
+
+.right-panel input[type="submit"]:hover {
+  background-color: #444;
+}
+
+/* Clearfix for flex layout */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.A-container{
+    height: 100%;
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 60px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px solid #555;
+    overflow-y: auto;
+    overflow-x: auto;
+    z-index: 1;
+}
+
+
+
+
+
